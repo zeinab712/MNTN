@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
           {/* Hero Section */}
-            <div className="relative w-screen h-screen bg-cover bg-center" style={{ backgroundImage: "url('../images/2.jpg')" }} id="start">
+            <div className="relative w-screen h-screen bg-cover bg-center" style={{ backgroundImage: "url('images/2.jpg')" }} id="start">
                 {/*Gradient fade at the bottom*/}
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent to-gray-900 z-10" />
 
