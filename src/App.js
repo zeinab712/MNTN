@@ -5,7 +5,7 @@ import Sider from "./sideBar";
 import Section from "./contentSection";
 import Footer from "./footer";
 function App() {
-  const [sectionData, setsectionData] = useState([
+  const sectionData= [
     {
       secNum: "01",
       header1: "What level of  hiker",
@@ -42,7 +42,7 @@ function App() {
       title: "where you go is the key",
       value: "250px",
     },
-  ]);
+  ];
 
   return (
     <div>
